@@ -57,7 +57,7 @@ $ docker-compose up --build
   - **URL:** `http://localhost:8080/reu`
   - **Método HTTP:** GET
 
-- **Obter detalhes de um réu rpor id**
+- **Obter detalhes de um réu por id**
 
   - **URL:** `http://localhost:8080/reu/{id}`
   - **Método HTTP:** GET
