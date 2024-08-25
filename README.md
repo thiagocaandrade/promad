@@ -11,7 +11,7 @@ Para que seja possível rodar essa aplicação é necessário atender alguns req
 - Postgres
 - Docker
 
-## Como Usar via Docker:
+## Como usar via Docker:
 
 ```
 $ docker-compose up --build
