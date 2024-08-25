@@ -30,7 +30,7 @@ $ docker-compose up --build
   - **URL:** `http://localhost:8080/processos`
   - **Método HTTP:** POST
 
-- **Obter detalhes de um processo específico**
+- **Obter detalhes de um processo por id**
 
   - **URL:** `http://localhost:8080/processos/{id}`
   - **Método HTTP:** GET
@@ -57,7 +57,7 @@ $ docker-compose up --build
   - **URL:** `http://localhost:8080/reu`
   - **Método HTTP:** GET
 
-- **Obter detalhes de um réu espec��fico**
+- **Obter detalhes de um réu rpor id**
 
   - **URL:** `http://localhost:8080/reu/{id}`
   - **Método HTTP:** GET
