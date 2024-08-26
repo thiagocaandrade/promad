@@ -11,7 +11,7 @@ Para que seja possível rodar essa aplicação é necessário atender alguns req
 - Postgres
 - Docker
 
-## Como usar via Docker:
+## Como usar via Docker (Opcional):
 
 ```
 $ docker-compose up --build
@@ -29,6 +29,14 @@ $ docker-compose up --build
 
   - **URL:** `http://localhost:8080/processos`
   - **Método HTTP:** POST
+  - **Exemplo de JSON:**
+    ```json
+    {
+        "numeros": [
+            1, 2, 3, 4, 5
+        ]
+    }
+    ```
 
 - **Obter detalhes de um processo por id**
 
@@ -49,6 +57,17 @@ $ docker-compose up --build
 
   - **URL:** `http://localhost:8080/processos/{id}/reu`
   - **Método HTTP:** PUT
+  - **Exemplo de JSON:**
+    ```json
+    {
+        "numeros": [
+            1, 2, 3, 4, 5
+        ],
+        "reu": {
+            "nome": "Teste processo"
+        }
+    }
+    ```
 
  ### Réus
 
