@@ -13,7 +13,7 @@ Para que seja possível rodar essa aplicação, é necessário atender a alguns 
 
 ## Instruções de Uso
 
-Você pode rodar a aplicação de duas maneiras: **via Docker** ou **diretamente na sua IDE**.
+Você pode rodar a aplicação de duas maneiras: **via Docker** ou **via Maven**.
 
 ### Rodar via Docker
 
