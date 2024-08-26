@@ -128,3 +128,9 @@ Se preferir rodar a aplicação diretamente via Maven, siga estes passos:
 
   - **URL:** `http://localhost:8080/reu/{id}`
   - **Método HTTP:** PUT
+  - **Exemplo de JSON:**
+    ```json
+    {
+    "nome": "Teste atualizando o reu"
+    }    
+    ```
